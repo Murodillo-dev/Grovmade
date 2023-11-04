@@ -3,9 +3,22 @@
     padding: 0;
 }
 
-.header {
+.site {
     width: 1440px;
     height: 5232.656px;
     border: 1px solid black;
     margin: 50px auto;
+}
+.header__navbar{
+    width: 1440px;
+height: 75px;
+border: 1px solid black;
+display: flex;
+align-items: center;
+}
+.header__top{
+    width: 1365px;
+height: 25px;
+border: 1px solid black;
+margin: auto;
 }
