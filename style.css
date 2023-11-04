@@ -1,4 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+.header {
+    width: 1440px;
+    height: 5232.656px;
+    border: 1px solid black;
+    margin: 50px auto;
 }
