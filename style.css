@@ -87,7 +87,7 @@
 .info{
     width: 579.16px;
     height: 153px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     margin-top: 80px;
 }
@@ -131,8 +131,51 @@
 .rasm{
     width: 1365px;
     height: 570.53px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 50px;
+    margin-left: 35px;
+    
+    
+}
+.rasm1{
+    display: flex;
+    justify-content: space-around;
+    width: 1365px;
+    height: 441px;
+}
+.inform{
+    width: 1355px;
+    height: 79px;
+    margin-left: 5px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rasm img{
+    width: 658px;
+    height: 441px;
+}
+.inf h1{
+    width: 200px;
+    height: 30px;margin-top: -2.5;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+}
+
+.inf p{
+    width: 95px;
+    height: 15px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 15.23px;
+    text-align: center;
 }
 
 .header__info {
@@ -143,6 +186,12 @@
     justify-content: space-between;
     align-items: center;
 
+
+}
+.inf{
+    width: 657.5px;
+    height: 79px;
+    /* border: 1px solid red; */
 }
 
 .header__desk {
