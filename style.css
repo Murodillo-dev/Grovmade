@@ -9,9 +9,10 @@
     border: 1px solid black;
     margin: 50px auto;
 }
+
 @font-face {
     font-family: Roboto;
-    src: url(roboto/);
+    src: url(roboto/Roboto-Regular.ttf);
 }
 
 .header__navbar {
@@ -43,4 +44,135 @@
     line-height: normal;
     letter-spacing: 1.4px;
     text-transform: uppercase;
+}
+
+
+
+.future__product {
+    width: 276px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 33px;
+    font-weight: 400;
+    margin-top: 117px;
+    margin-left: 580px;
+}
+
+.seewhats {
+    width: 230px;
+    color: #A0A0A0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    margin-top: 16px;
+    margin-left: 602px;
+    font-weight: 400;
+
+}
+
+.fullstops {
+    width: 1440px;
+    height: 21px;
+    margin-top: 45px;
+    display: flex;
+
+}
+
+
+.fullstop1 {
+    width: 7px;
+    height: 7px;
+    margin-left: 16px;
+    background: #000;
+    margin-top: 8px;
+}
+
+.stopfirst {
+    margin-left: 684px;
+
+}
+
+.gadget__product {
+    width: 1328px;
+    height: 494px;
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.first__gadget {
+    width: 310px;
+    height: 494px;
+    margin-left: 25px;
+}
+
+.first__gad__in {
+    width: 310px;
+    height: 434px;
+    background-color: #F8F8F8;
+}
+
+.gadget__phone {
+    width: 310px;
+    height: 434px;
+}
+
+.walnut {
+    width: 147px;
+    color: #A0A0A0;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+
+.walnut__price {
+    width: 31px;
+    color: #A0A0A0;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.homeoffice {
+    width: 1440px;
+    height: 504px;
+    border: 1px solid red;
+    margin-top: 116px;
+    background: url(homebackground.png) no-repeat center center / cover;
+}
+
+.home__text {
+    width: 699px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 66px;
+    font-weight: 400;
+    margin-left: 368px;
+    margin-top: 174px;
+}
+
+.workingfrom{
+    width: 643px;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+margin-left: 396px;
+margin-top: 14px;
+}
+
+.homelearnmore{
+    width: 95px;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+text-transform: uppercase;
+margin-left: 670px;
+margin-top: 30px;
 }
