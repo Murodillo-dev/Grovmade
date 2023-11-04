@@ -11,7 +11,7 @@
 }
 @font-face {
     font-family: Roboto;
-    src: url(roboto/);
+    src: url(roboto/Roboto-Regular.ttf);
 }
 
 .header__navbar {
@@ -43,4 +43,117 @@
     line-height: normal;
     letter-spacing: 1.4px;
     text-transform: uppercase;
+}
+
+
+
+
+/* **********************MADE THE HARD WAY********************** */
+
+.hard_way{
+    width: 1052px;
+    height: 1000px;
+    margin: 116px auto 0 auto;
+
+}
+
+.way_title{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 23px;
+}
+.way_text{
+    width: 777px;
+    height: 72px;
+    color: #A0A0A0;
+    text-align: center;
+    margin-left: 138px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+}
+.way_img{
+    margin-top: 23px;
+    margin-bottom: 38px;
+    width: 1052px;
+    height: 592px;
+}
+.way_text2{
+    margin-bottom: 79px;
+}
+.way_img_blog{
+    width: 1365px;
+    height: 1193px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 124px;
+}
+.way_img_card{
+    width: 203px;
+    height: 271px;
+    /* margin-right: 25px; */
+}
+.way_title2{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 105.882% */
+}
+.way_text3{
+    /* margin-left: 604px; */
+    margin-top: 44px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 21px; */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.design{
+    width: 1340px;
+    height: 404px;
+    background: #9AA8B1;
+    margin: auto;
+    margin-top: 121px;
+}
+.design-icon{
+    margin-top: 120px;
+    margin-left: 650px;
+    margin-bottom: 24px;
+}
+.design_title{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px; /* 134.884% */
+    margin-bottom: 2px;
+}
+.design_text{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.8px;
 }
